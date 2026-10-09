@@ -1,10 +1,11 @@
 #include <iostream> //cout , cin
 #include <string> //to_string(), substring()
-#include <bits/stdc++.h> //isdigit()
+#include <cctype> //isdigit() <- not a standard library 
 #include <iomanip> //setw(), setfill()
 #include <cstdio>//prinf for debugging
+#include <sstream> // for 
 
-enum Feild{
+enum Field{
 	firstName,
 	lastName,
 	nickname,
@@ -55,11 +56,14 @@ class PhoneBook {
 	}
 };
 
+//not actually done then ..
 void printErr()
 {
 
 }
-bool checkValid(std::string input, Feild inputFeild)
+
+
+bool checkValid(std::string input, Field inputFeild)
 {
 	if (inputFeild == firstName || inputFeild == lastName)
 	{
