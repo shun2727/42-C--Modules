@@ -68,5 +68,28 @@ now that brings us to another question
 
 
 
+4. how does destructors work
+
+it is calle dwhen an object goes out of scope
+
+Do we need to call it manually ? 
+No, you generally do not need to call destructors explicitly in C++. The C++ runtime environment automatically invokes destructors when an object's lifetime 
 
 
+but in the case where there is a pointer or invovlds memory management, thats when destructors are needed
+
+
+5. creating values by the heap 
+	using new and delete instead of malloc and free
+
+	e.g. for heap
+
+	theClass *var = new theClass(bla); // call the constructor and new when initializing
+
+	e.g. for stack 
+	
+	theClass var; 
+
+6. deleting value on the heap 
+
+	https://www.geeksforgeeks.org/cpp/delete-in-c/

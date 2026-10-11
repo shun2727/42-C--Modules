@@ -1,40 +1,39 @@
 #include <iostream>
 
-/*
-- implement a class
-- implement class functions 
-*/
-
-
-//using new to create objects and useing delte to free
+#ifndef ZOMBIE_HPP
+#define ZOMBIE_HPP
+#endif
 
 class Zombie{
 	
-	std::string name;
+	std::string zombieName;
 	
-	void announce(void)
-	{
-		std::cout << name << ": : BraiiiiiiinnnzzzZ...";
-	}
-
 	public :
-		Zombie() //default constrcutor
+		//default constrcutor
+		Zombie()
 		{
 			
 		}
-
-		Zombie* newZombie(std::string name) //creates a zombie, names it so it can be used outisde th eufnciotn scope
-		{
-			new ;
-		}
-
-		~Zombie() //destructor
-		{
-
-		}
-
 		
+		//setter function?
+		Zombie (std ::string name)
+		{
+			zombieName = name;
+		}
+
+		//member function
+		void announce(void)
+		{
+			std::cout << zombieName << " : BraiiiiiiinnnzzzZ...\n" ;
+		}
+
+		~Zombie() //deconstructor, denoted by ~ (tilde)
+		{
+			std::cout << zombieName << " is being destroyed...\n";
+		}
+
 };
 
+Zombie*	newZombie(std::string name);
+void	randomChump(std::string name);
 
-Zombie *zombieHorde(int N, std::string name);
