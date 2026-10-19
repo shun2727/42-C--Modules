@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/11 16:44:52 by syee              #+#    #+#             */
-/*   Updated: 2026/10/11 17:24:51 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/19 00:13:46 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
  */
 void randomChump(std::string name)
 {
-	Zombie newZombie(name);
-	return ;
+	Zombie zombie1(name);
+	zombie1.announce();
+	
 }

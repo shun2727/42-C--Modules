@@ -4,33 +4,18 @@
 #define ZOMBIE_HPP
 #endif
 
+// : is called member initlaizer ist 
 class Zombie{
 	
-	std::string zombieName;
+	private : //doesnt really have to be written cus its private by default
+		std::string zombieName_;
 	
-	public :
-		//default constrcutor
-		Zombie()
-		{
-			
-		}
+	public :	
+		Zombie();//default constrcutor
+		~Zombie(); //destructor
+		Zombie (std ::string name);//overloaded funciton
+		void announce(void);
 		
-		//setter function?
-		Zombie (std ::string name)
-		{
-			zombieName = name;
-		}
-
-		//member function
-		void announce(void)
-		{
-			std::cout << zombieName << " : BraiiiiiiinnnzzzZ...\n" ;
-		}
-
-		~Zombie() //deconstructor, denoted by ~ (tilde)
-		{
-			std::cout << zombieName << " is being destroyed...\n";
-		}
 
 };
 

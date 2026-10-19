@@ -93,3 +93,28 @@ but in the case where there is a pointer or invovlds memory management, thats wh
 6. deleting value on the heap 
 
 	https://www.geeksforgeeks.org/cpp/delete-in-c/
+
+7. why are there so many files, how do i declare the contetns? 
+https://www.modernescpp.com/index.php/c-core-guidelines-source-files/
+
+- apparently yo shouldo only include the funciton body if its a simple getter and setter funciton otherwise , seperate them 
+
+https://www.youtube.com/watch?v=LjNsqmr2Kwc <- on how to declare it
+
+
+8. scope resolution operator
+- https://www.youtube.com/watch?v=LjNsqmr2Kwc
+- im using scope resolution operator to assign the functions inside the class
+
+
+9. member funcitons in general 
+- https://www.youtube.com/watch?v=1oOWq4rpXIg
+
+10. decalring outside the funciron 
+- https://www.codecademy.com/resources/docs/cpp/destructors
+
+11. classes and stuff
+- https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm
+
+12. function overloading 
+- Function overloading allows us to define multiple functions with the same name but with different parameters, so that the same function name can perform different tasks depending on the values and types of arguments passed. 
