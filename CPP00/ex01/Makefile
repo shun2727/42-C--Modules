@@ -2,7 +2,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98
 CC = g++ 
 
 NAME = phonebook
-source = phonebook.cpp
+source = main.cpp
 OBJ = $(source:.cpp=.o)
 
 all: $(NAME)

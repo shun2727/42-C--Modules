@@ -118,3 +118,29 @@ https://www.youtube.com/watch?v=LjNsqmr2Kwc <- on how to declare it
 
 12. function overloading 
 - Function overloading allows us to define multiple functions with the same name but with different parameters, so that the same function name can perform different tasks depending on the values and types of arguments passed. 
+
+13. initilizing using brace and list 
+
+14. C++ naming conventions 
+Based on online resources there isnt a definite naming convention
+- https://www.geeksforgeeks.org/cpp/naming-convention-in-c/
+HOwever, based on google's c++ styling guide 
+- https://google.github.io/styleguide/cppguide.html
+	Variables: snake_case
+
+	Class member variables: snake_case_
+
+	Functions: PascalCase
+
+	Constants: kMixedCase
+
+15. 3 ways to initilzie variables 
+- Member initializer list: Initializes class members inside a constructor; C++98 uses `: health_(health)`
+- Direct initialization: Creates an object using parentheses, e.g. `Player player(100);` (C++98+); braces `Player player{100};` are available in C++11+.
+- Copy-list initialization: Creates an object using `= {}`, e.g. `Player player = {100};` (C++11+).
+
+16. deleting an array of objects
+https://www.geeksforgeeks.org/cpp/deletion-of-array-of-objects-in-c/
+
+17. pointer 
+- https://www.w3schools.com/cpp/cpp_pointers.asp

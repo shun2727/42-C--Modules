@@ -2,7 +2,6 @@
 
 #ifndef ZOMBIE_HPP
 #define ZOMBIE_HPP
-#endif
 
 // : is called member initlaizer ist 
 class Zombie{
@@ -22,3 +21,4 @@ class Zombie{
 Zombie*	newZombie(std::string name);
 void	randomChump(std::string name);
 
+#endif

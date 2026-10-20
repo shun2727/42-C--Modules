@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/11 17:38:35 by syee              #+#    #+#             */
-/*   Updated: 2026/10/19 11:09:03 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/20 09:48:02 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,11 @@ Zombie :: Zombie() //constructor 1
 
 }
 
-Zombie :: Zombie (std :: string name ) //constructor 2 ?
+//overloaded constructor(meaning two constrcutor with the same name does diff things)
+// this is called member initizlization and it only belongs to constructors
+Zombie :: Zombie (std :: string name) : zombieName_(name) //parameterized constructo
 {
-	zombieName_ = name;
+	
 }
 
 /*
