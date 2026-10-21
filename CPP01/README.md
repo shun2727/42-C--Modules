@@ -144,3 +144,7 @@ https://www.geeksforgeeks.org/cpp/deletion-of-array-of-objects-in-c/
 
 17. pointer 
 - https://www.w3schools.com/cpp/cpp_pointers.asp
+
+18. constant reference
+const &type
+- https://www.geeksforgeeks.org/cpp/return-by-reference-in-c-with-examples/
