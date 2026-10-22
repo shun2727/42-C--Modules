@@ -70,14 +70,10 @@ now that brings us to another question
 
 4. how does destructors work
 
-it is calle dwhen an object goes out of scope
+it is calle dwhen an object goes out of scope (scope is defines with {})
 
 Do we need to call it manually ? 
-No, you generally do not need to call destructors explicitly in C++. The C++ runtime environment automatically invokes destructors when an object's lifetime 
-
-
-but in the case where there is a pointer or invovlds memory management, thats when destructors are needed
-
+No, you generally do not need to call destructors explicitly in C++. The C++ runtime environment automatically invokes destructors when an object's lifetime ends, they will have hteir won destructor function
 
 5. creating values by the heap 
 	using new and delete instead of malloc and free
@@ -133,6 +129,8 @@ HOwever, based on google's c++ styling guide
 	Functions: PascalCase
 
 	Constants: kMixedCase
+- theres also microsoft's styling guide which uses m_ for member variables, i think this is pretty good considering by typing m_ it will autofil the releavent member variables 
+ - https://learn.microsoft.com/en-us/windows/win32/stg/coding-style-conventions
 
 15. 3 ways to initilzie variables 
 - Member initializer list: Initializes class members inside a constructor; C++98 uses `: health_(health)`
@@ -148,3 +146,6 @@ https://www.geeksforgeeks.org/cpp/deletion-of-array-of-objects-in-c/
 18. constant reference
 const &type
 - https://www.geeksforgeeks.org/cpp/return-by-reference-in-c-with-examples/
+
+19. Using the this keyword
+- https://www.geeksforgeeks.org/cpp/cpp-program-to-show-use-of-this-keyword-in-class/

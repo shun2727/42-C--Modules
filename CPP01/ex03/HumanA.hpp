@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 19:45:40 by syee              #+#    #+#             */
-/*   Updated: 2026/10/21 19:56:38 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/22 15:59:48 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,11 @@
 class HumanA{
 	private: 
 		std::string name_;
-		Weapon weapon_type_;
+		Weapon weapon_;//humanA will always be armed
 
 	public:
-		
+		HumanA();
+		HumanA(std::string name_, Weapon weapon); 
 		void attack();
 };
 
