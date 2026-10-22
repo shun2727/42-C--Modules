@@ -149,3 +149,6 @@ const &type
 
 19. Using the this keyword
 - https://www.geeksforgeeks.org/cpp/cpp-program-to-show-use-of-this-keyword-in-class/
+
+20. ex093 relates, i didnt manage to assign an external object to a member variable
+- https://stackoverflow.com/questions/10280328/setting-a-member-variable-to-an-object-outside-the-class

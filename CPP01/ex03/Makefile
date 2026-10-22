@@ -8,6 +8,8 @@ OBJ = $(SRC:.cpp=.o)
 $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $@
 
+all : $(NAME)
+
 #how do we create the objects (by compiling with -c)
 #create the .o by having it's .cpp counterpart
 %.o: %.cpp

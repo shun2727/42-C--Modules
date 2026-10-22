@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:49:31 by syee              #+#    #+#             */
-/*   Updated: 2026/10/22 16:02:01 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/22 23:00:44 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 
 int main()
 {
+	//for HumanA, this shows that the weapon can be changed via bob and the weapon
 	{
 		Weapon club = Weapon("crude spiked club");
 	
@@ -24,8 +25,15 @@ int main()
 		bob.attack();
 		club.setType("some other type of club");
 		bob.attack();
-		
-		
-
+	}
+	
+	{
+		Weapon club = Weapon("crude spiked club");
+	
+		HumanB jim("Jim");
+		jim.setW
+		bob.attack();
+		club.setType("some other type of club");
+		bob.attack();
 	}
 }

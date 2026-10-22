@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 14:57:58 by syee              #+#    #+#             */
-/*   Updated: 2026/10/22 15:52:07 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/22 22:57:56 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ class Weapon{
 		std::string type_;
 	
 	public:
+		Weapon();
 		Weapon(std::string type);
 		const std::string& getType();
 		void setType(std::string new_type); 
