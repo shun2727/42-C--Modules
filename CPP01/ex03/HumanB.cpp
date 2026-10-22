@@ -6,7 +6,7 @@
 /*   By: syee <syee@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:45:39 by syee              #+#    #+#             */
-/*   Updated: 2026/10/22 23:16:26 by syee             ###   ########.fr       */
+/*   Updated: 2026/10/22 23:23:52 by syee             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void HumanB::attack()
 /*
 	if an object is passed in then how do you assign it to the member variable
 */
-void setWeapon(Weapon &weapon)
+void setWeapon(std::string type)
 {
-	weapon_ = weapon;
+	weapon_.setType(type);
 }
